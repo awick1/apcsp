@@ -1,0 +1,105 @@
+/*Styles for headers*/
+
+h1 {
+	color: purple;
+	font-size: 40px;
+	text-align: center;
+	font-family: Goergia, sans-serif;
+	margin: 10px;
+}
+
+h2 {
+	clear: both;
+	color: purple;
+	text-align: center;
+	font-family: arial, sans-serif;
+	font-size: 30px;
+}
+h3 {
+	clear: both;
+	color: purple;
+	font-family: arial, sans-serif;
+	font-size: 25px;
+}
+
+
+
+/*Styles for links*/
+
+a { 
+	color: purple;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	padding:10px;
+}
+
+/*a:hover {
+	text: blue;
+}*/
+
+
+/* Styles for lists */
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
+
+/*Misc. styles*/
+
+body {
+	background: url("BACKGROUND.jpg") repeat;
+	background-size: 100%;
+	background-color: #e6ffff;
+	
+}
+
+p {
+	font-family: arial, sans-serif;
+	font-size: 20px;
+}
+
+/* Styles for classes and IDs*/
+
+
+#nav {
+	width: 100%;
+	overflow: hidden;
+    background-color: gray;
+	text-align: center;
+	margin-bottom: 10px;
+	
+}
+
+
+.navlink {
+	background-color: white;
+	margin: 20px;
+        padding: 20px;
+	border-style: solid;
+	border-color: #4B0082;
+	font-family: Goergia;
+}
+
+.navlink:hover {
+	background-color: gray;
+}
+
+#cspLogo {
+    text-align: center;
+}
+
+#grad {
+  background: #e6ffff; /* For browsers that do not support gradients */
+  background: linear-gradient(-90deg, #e6ffff, blue); /* Standard syntax */
+}
+
+#left{
+    float:left;
+    
+}
